@@ -1,17 +1,17 @@
-# salesforce-contract-sql 
+# salesforce-contact-sql 
 
-salesforce-contract-sql は、主にエッジアプリケーションにおいて、Salesforceと連携された契約データを保存するSQLテーブルを作成するためのレポジトリです。    
-salesforce-contract-sql は、そのままクラウド環境におけるアプリケーションにも、適用可能です。    
+salesforce-contact-sql は、主にエッジアプリケーションにおいて、Salesforceと連携されたコンタクトデータを保存するSQLテーブルを作成するためのレポジトリです。    
+salesforce-contact-sql は、そのままクラウド環境におけるアプリケーションにも、適用可能です。    
 
 ## 前提条件  
-https://developer.salesforce.com/docs/atlas.ja-jp.218.0.object_reference.meta/object_reference/sforce_api_objects_contract.htm     
+https://developer.salesforce.com/docs/atlas.ja-jp.218.0.object_reference.meta/object_reference/sforce_api_objects_contact.htm     
 本レポジトリ の sql設定ファイルの内容は、上記URL の API 仕様を前提としています。  
 
 ## sqlの設定ファイル
 
-salesforce-contract-sql には、sqlの設定ファイルとして、以下のファイルが含まれています。    
+salesforce-contact-sql には、sqlの設定ファイルとして、以下のファイルが含まれています。    
 
-* salesforce-contract-sql-contract-data.sql（Salesforce 契約 - 契約データ）
+* salesforce-contact-sql-contact-data.sql（Salesforce コンタクト - コンタクトデータ）
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
 
